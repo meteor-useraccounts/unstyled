@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Accounts Templates unstyled.",
-    version: "0.9.0",
+    version: "0.9.1",
     name: "splendido:accounts-templates-unstyled",
     git: "https://github.com/splendido/accounts-templates-unstyled.git",
 });
