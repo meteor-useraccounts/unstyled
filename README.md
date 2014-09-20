@@ -11,7 +11,7 @@ Learn more [here](http://accounts-templates.meteor.com).
 
 ## Warning!
 
-Adding this package with `mrt add accounts-templates-unstyled` does not add any css but for the colors for social login buttons. This is to let you write your own css/less/sass rules!
+Adding this package with `mrt add accounts-templates-unstyled` does not add any css/less/sass rules but for the colors for social login buttons. This is to let you write your own ones!
 
 
 ## Contributing
