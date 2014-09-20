@@ -7,7 +7,7 @@
     {{/if}}
     <input type="{{type}}" id="AT_field_{{_id}}" name="AT_field_{{_id}}" placeholder="{{placeholder}}" autocapitalize="none" autocorrect="off">
     {{#if negativeFeedback}}
-      {{#if hasHerror}}
+      {{#if hasError}}
         <span class="glyphicon glyphicon-remove"></span>
       {{/if}}
     {{/if}}
@@ -16,7 +16,7 @@
           <span class="glyphicon glyphicon-ok"></span>
         {{/if}}
     {{/if}}
-    {{#if hasHerror}}
+    {{#if hasError}}
       <span>{{errorText}}</span>
     {{/if}}
   </div>
