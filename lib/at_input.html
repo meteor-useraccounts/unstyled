@@ -1,0 +1,23 @@
+<template name='atInput'>
+  <div class="{{#if hasError}}has-error{{/if}} {{#if hasSuccess}}has-success{{/if}} {{#if feedback}}has-feedback{{/if}}">
+    {{#if showLabels}}
+      <label for="AT_field_{{_id}}">
+        {{displayName}} {{#unless required}}{{optionalText}}{{/unless}}
+      </label>
+    {{/if}}
+    <input type="{{type}}" id="AT_field_{{_id}}" name="AT_field_{{_id}}" placeholder="{{placeholder}}" autocapitalize="none" autocorrect="off">
+    {{#if negativeFeedback}}
+      {{#if hasHerror}}
+        <span class="glyphicon glyphicon-remove"></span>
+      {{/if}}
+    {{/if}}
+    {{#if positiveFeedback}}
+        {{#if hasSuccess}}
+          <span class="glyphicon glyphicon-ok"></span>
+        {{/if}}
+    {{/if}}
+    {{#if hasHerror}}
+      <span>{{errorText}}</span>
+    {{/if}}
+  </div>
+</template>
