@@ -1,11 +1,11 @@
 <template name='atInput'>
-  <div class="{{#if hasError}}has-error{{/if}} {{#if hasSuccess}}has-success{{/if}} {{#if feedback}}has-feedback{{/if}}">
+  <div class="at-input {{#if hasError}}has-error{{/if}} {{#if hasSuccess}}has-success{{/if}} {{#if feedback}}has-feedback{{/if}}">
     {{#if showLabels}}
-      <label for="AT_field_{{_id}}">
+      <label for="at-field-{{_id}}">
         {{displayName}} {{#unless required}}{{optionalText}}{{/unless}}
       </label>
     {{/if}}
-    <input type="{{type}}" id="AT_field_{{_id}}" name="AT_field_{{_id}}" placeholder="{{placeholder}}" autocapitalize="none" autocorrect="off">
+    <input type="{{type}}" id="at-field-{{_id}}" name="at-field-{{_id}}" placeholder="{{placeholder}}" autocapitalize="none" autocorrect="off">
     {{#if negativeFeedback}}
       {{#if hasError}}
         <span class="glyphicon glyphicon-remove"></span>
