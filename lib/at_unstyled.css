@@ -1,55 +1,59 @@
-button.at-social-btn#at-facebook {
+button#at-facebook {
   background: #3B5998;
   color: #fff;
 }
-button.at-social-btn#at-facebook.disabled {
+button#at-facebook.disabled {
   color: #ddd;
   background: #666666;
 }
-button.at-social-btn#at-facebook:hover {
+button#at-facebook:hover {
   background: #2C4780;
 }
-button.at-social-btn#at-linkedin {
+
+button#at-linkedin {
   background: #338AB0;
   color: #fff;
 }
-button.at-social-btn#at-linkedin.disabled {
+button#at-linkedin.disabled {
   color: #ddd;
   background: #666666;
 }
-button.at-social-btn#at-linkedin:hover {
+button#at-linkedin:hover {
   background: #0571A6;
 }
-button.at-social-btn#at-twitter {
+
+button#at-twitter {
   background: #4099FF;
   color: #fff;
 }
-button.at-social-btn#at-twitter.disabled {
+button#at-twitter.disabled {
   color: #ddd;
   background: #666666;
 }
-button.at-social-btn#at-twitter:hover {
+button#at-twitter:hover {
   background: #3288EB;
 }
-button.at-social-btn#at-google {
+
+button#at-google {
   background: #db5a3c;
   color: #fff;
 }
-button.at-social-btn#at-google.disabled {
+button#at-google.disabled {
   color: #ddd;
   background: #666666;
 }
-button.at-social-btn#at-google:hover {
+button#at-google:hover {
   background: #CA4C2E;
 }
-button.at-social-btn#at-github {
+
+button#at-github {
   background: #666;
   color: #fff;
 }
-button.at-social-btn#at-github.disabled {
+button#at-github.disabled {
   color: #ddd;
   background: #666666;
 }
-button.at-social-btn#at-github:hover {
+button#at-github:hover {
   background: #555;
 }
