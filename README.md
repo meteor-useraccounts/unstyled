@@ -6,13 +6,16 @@ Meteor sign up and sign in templates (and much more!) ustyled
 
 This package depends on [accounts-templates-core](https://atmospherejs.com/package/accounts-templates-core)
 
-Learn more [here](http://accounts-templates.meteor.com).
+Learn more [here](http://accounts-templates.meteor.com) or have a look at the full [documentation](https://github.com/splendido/accounts-templates-core).
 
 
 ## Warning!
 
 Adding this package with `mrt add accounts-templates-unstyled` does not add any css/less/sass rules but for the colors for social login buttons. This is to let you write your own ones!
 
+## Writing Custom CSS Rules
+
+Please have a look [here](https://github.com/splendido/accounts-templates-core#css-rules) to discover more about templates structure and find out how to write your own css rules. 
 
 ## Contributing
 
