@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Accounts Templates unstyled.",
-    version: "0.9.16",
+    version: "0.10.0",
     name: "splendido:accounts-templates-unstyled",
     git: "https://github.com/splendido/accounts-templates-unstyled.git",
 });
@@ -18,7 +18,7 @@ Package.on_use(function(api, where) {
     ], ["client", "server"]);
 
     api.imply([
-        "splendido:accounts-templates-core@0.9.16",
+        "splendido:accounts-templates-core@0.10.0",
     ], ["client", "server"]);
 
     api.add_files([
@@ -58,7 +58,7 @@ Package.on_use(function(api, where) {
 Package.on_test(function(api) {
     api.use([
         "splendido:accounts-templates-unstyled",
-        "splendido:accounts-templates-core@0.9.16",
+        "splendido:accounts-templates-core@0.10.0",
     ]);
 
     api.use([
