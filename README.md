@@ -9,7 +9,7 @@ This package depends on [accounts-templates-core](https://atmospherejs.com/usera
 Learn more [here](http://accounts-templates.meteor.com) or have a look at the full [documentation](https://github.com/useraccounts/core).
 
 
-## Warning!
+## Bring Your Own CSS
 
 Adding this package with `mrt add useraccounts:unstyled` does not add any css/less/sass rules but for the colors for social login buttons. This is to let you write your own ones!
 
