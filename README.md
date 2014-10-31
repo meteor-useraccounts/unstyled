@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/useraccounts/unstyled.svg?branch=master)](https://travis-ci.org/useraccounts/unstyled)
-splendido:accounts-templates-unstyled
+useraccounts:unstyled
 =====================================
 
 Meteor sign up and sign in templates (and much more!) ustyled
