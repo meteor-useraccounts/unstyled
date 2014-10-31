@@ -4,7 +4,7 @@ useraccounts:unstyled
 
 Meteor sign up and sign in templates (and much more!) ustyled
 
-This package depends on [accounts-templates-core](https://atmospherejs.com/useraccounts/core)
+This package depends on [useraccounts:core](https://atmospherejs.com/useraccounts/core)
 
 Learn more [here](http://accounts-templates.meteor.com) or have a look at the full [documentation](https://github.com/useraccounts/core).
 
