@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/useraccounts/unstyled.svg?branch=master)](https://travis-ci.org/useraccounts/unstyled)
+[![Build Status](https://travis-ci.org/meteor-useraccounts/unstyled.svg?branch=master)](https://travis-ci.org/meteor-useraccounts/unstyled)
 useraccounts:unstyled
 =====================================
 
@@ -6,7 +6,7 @@ Meteor sign up and sign in templates (and much more!) ustyled
 
 This package depends on [useraccounts:core](https://atmospherejs.com/useraccounts/core)
 
-Learn more [here](http://accounts-templates.meteor.com) or have a look at the full [documentation](https://github.com/useraccounts/core).
+Learn more [here](http://accounts-templates.meteor.com) or have a look at the full [documentation](https://github.com/meteor-useraccounts/core).
 
 
 ## Bring Your Own CSS
@@ -15,10 +15,10 @@ Adding this package with `mrt add useraccounts:unstyled` does not add any css/le
 
 ## Writing Custom CSS Rules
 
-Please have a look [here](https://github.com/useraccounts/core#css-rules) to discover more about templates structure and find out how to write your own css rules. 
+Please have a look [here](https://github.com/meteor-useraccounts/core#css-rules) to discover more about templates structure and find out how to write your own css rules. 
 
 ## Contributing
 
 Anyone is welcome to contribute. Fork, make your changes, and then submit a pull request.
 
-Thanks to all those who have contributed code changes to [this package](https://github.com/useraccounts/unstyled/graphs/contributors) as well as to the [core package](https://github.com/useraccounts/core/graphs/contributors) and all who have helped by submitting bug reports and feature ideas.
+Thanks to all those who have contributed code changes to [this package](https://github.com/meteor-useraccounts/unstyled/graphs/contributors) as well as to the [core package](https://github.com/meteor-useraccounts/core/graphs/contributors) and all who have helped by submitting bug reports and feature ideas.
