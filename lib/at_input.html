@@ -3,22 +3,15 @@
 </template>
 
 <template name="atTextInput">
-  <div class="at-input {{#if hasError}}has-error{{/if}} {{#if hasSuccess}}has-success{{/if}} {{#if feedback}}has-feedback{{/if}}">
+  <div class="at-input {{#if isValidating}}validating{{/if}} {{#if hasError}}has-error{{/if}} {{#if hasSuccess}}has-success{{/if}} {{#if feedback}}has-feedback{{/if}}">
     {{#if showLabels}}
       <label for="at-field-{{_id}}">
         {{displayName}} {{#unless required}}{{optionalText}}{{/unless}}
       </label>
     {{/if}}
     <input type="{{type}}" id="at-field-{{_id}}" name="at-field-{{_id}}" placeholder="{{placeholder}}" autocapitalize="none" autocorrect="off">
-    {{#if negativeFeedback}}
-      {{#if hasError}}
-        <span class="glyphicon glyphicon-remove"></span>
-      {{/if}}
-    {{/if}}
-    {{#if positiveFeedback}}
-        {{#if hasSuccess}}
-          <span class="glyphicon glyphicon-ok"></span>
-        {{/if}}
+    {{#if hasIcon}}
+        <span class="{{iconClass}}"></span>
     {{/if}}
     {{#if hasError}}
       <span>{{errorText}}</span>
