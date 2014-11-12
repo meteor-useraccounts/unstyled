@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Accounts Templates unstyled.",
-    version: "1.2.2",
+    version: "1.2.3",
     name: "useraccounts:unstyled",
     git: "https://github.com/meteor-useraccounts/unstyled.git",
 });
@@ -18,7 +18,7 @@ Package.on_use(function(api, where) {
     ], ["client", "server"]);
 
     api.imply([
-        "useraccounts:core@1.2.2",
+        "useraccounts:core@1.2.3",
     ], ["client", "server"]);
 
     api.add_files([
@@ -60,7 +60,7 @@ Package.on_use(function(api, where) {
 Package.on_test(function(api) {
     api.use([
         "useraccounts:unstyled",
-        "useraccounts:core@1.2.2",
+        "useraccounts:core@1.2.3",
     ]);
 
     api.use([
