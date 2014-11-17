@@ -11,7 +11,7 @@ Learn more [here](http://accounts-templates.meteor.com) or have a look at the fu
 
 ## Bring Your Own CSS
 
-Adding this package with `mrt add useraccounts:unstyled` does not add any css/less/sass rules but for the colors for social login buttons. This is to let you write your own ones!
+Adding this package with `meteor add useraccounts:unstyled` does not add any css/less/sass rules but for the colors for social login buttons. This is to let you write your own ones!
 
 ## Writing Custom CSS Rules
 
