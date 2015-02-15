@@ -1,0 +1,3 @@
+.ua-input.validating * {
+  cursor:progress;
+}

@@ -1,0 +1,16 @@
+<template name="uaPwdForm">
+  <div class="ua-pwd-form">
+    <form role="form" id="ua-pwd-form" class="{{disabled}}" novalidate action="#" method="POST">
+      {{#each fields}}
+        {{> uaInput}}
+      {{/each}}
+      {{#if showReCaptcha}}
+        {{> uaReCaptcha}}
+      {{/if}}
+      {{#if showForgotPasswordLink}}
+        {{> uaPwdLink}}
+      {{/if}}
+      {{> uaPwdFormBtn}}
+    </form>
+  </div>
+</template>

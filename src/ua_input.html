@@ -1,0 +1,56 @@
+<template name="uaInput">
+    {{> Template.dynamic template=templateName}}
+</template>
+
+<template name="uaTextInput">
+  <div class="ua-input {{#if isValidating}}validating{{/if}} {{#if hasError}}has-error{{/if}} {{#if hasSuccess}}has-success{{/if}} {{#if feedback}}has-feedback{{/if}}">
+    {{#if showLabels}}
+      <label for="ua-field-{{_id}}">
+        {{displayName}} {{#unless required}}{{optionalText}}{{/unless}}
+      </label>
+    {{/if}}
+    <input type="{{type}}" id="ua-field-{{_id}}" name="ua-field-{{_id}}" placeholder="{{placeholder}}" autocapitalize="none" autocorrect="off">
+    {{#if hasIcon}}
+        <span class="{{iconClass}}"></span>
+    {{/if}}
+    {{#if hasError}}
+      <div class="ua-input-error">
+        <span>{{errorText}}</span>
+      </div>
+    {{/if}}
+  </div>
+</template>
+
+<template name="uaCheckboxInput">
+  <div class="ua-input">
+      <input type="{{type}}" id="ua-field-{{_id}}" name="ua-field-{{_id}}" {{disabled}}>
+      <label for="ua-field-{{_id}}">{{displayName}}</label>
+  </div>
+</template>
+
+<template name="uaSelectInput">
+  <div class="ua-input">
+    <label for="ua-field-{{_id}}">{{displayName}}</label>
+    <select id="ua-field-{{_id}}" name="ua-field-{{_id}}">
+      {{#each values}}
+        <option value="{{value}}">{{text}}</option>
+      {{/each}}
+    </select>
+  </div>
+</template>
+
+<template name="uaRadioInput">
+  <div class="ua-input">
+    <label>{{displayName}}</label>
+  </div>
+  {{#each values}}
+    <div class="ua-input">
+      <input id="ua-field-{{id}}-choice-{{value}}" type="radio" name="ua-field-{{id}}" value={{value}}>
+      <label>{{text}}</label>
+    </div>
+  {{/each}}
+</template>
+
+<template name="uaHiddenInput">
+  <input type="hidden" id="ua-field-{{_id}}" name="ua-field-{{_id}}">
+</template>
