@@ -1,4 +1,6 @@
+[![Meteor Icon](http://icon.meteor.com/package/useraccounts:unstyled)](https://atmospherejs.com/useraccounts/unstyled)
 [![Build Status](https://travis-ci.org/meteor-useraccounts/unstyled.svg?branch=master)](https://travis-ci.org/meteor-useraccounts/unstyled)
+
 useraccounts:unstyled
 =====================================
 
